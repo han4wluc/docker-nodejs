@@ -25,7 +25,7 @@ RUN npm install -g pangyp\
 ENV NODE_ENV production
 WORKDIR /usr/src
 
-RUN npm install --production; npm install -g nodemon
+RUN npm install -g nodemon
 
 CMD ["npm","start"]
 
